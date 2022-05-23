@@ -3,7 +3,7 @@ dotenv.config();
 
 const { SERVER_PORT, SQL } = process.env;
 
-let version = "0.0.1";
+let version = "1.0.0";
 
 if (
   !(

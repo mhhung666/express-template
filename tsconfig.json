@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "strict": false,
+    "typeRoots": ["node_modules/@types"],
+    "resolveJsonModule": true, //可讀取json
+    "skipLibCheck": true //可以忽略檢查import module 的type錯誤
+  },
+  "include": ["src"], //源程式碼
+  "exclude": ["node_modules"]
+}
